@@ -1,0 +1,10 @@
+Download and extract Kafka:
+https://kafka.apache.org
+
+Inside Kafka folder:
+
+1) Start Zookeeper
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+2) Start Kafka
+.\bin\windows\kafka-server-start.bat .\config\server.properties
